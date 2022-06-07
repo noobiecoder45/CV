@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>               
+    Name: Yashvardhan
+    <br> 
+    Phone:919701976
+    <br> 
+    Email:yashvardhangera@gmail.com
+    </p>
+    <form action="mailto:yashvardhangera@gmail.com" method="post" enctype="text/plain">
+        <!-- what this (mailto:) does is that it generates a basic email version of this form and opens it up in our gmail -->
+        <!-- so basically what we are doing here is that we will let the user fill in all the data in the form ad then we will send a copy of that data as a draft of a mail using the mailto: attribute
+        the enctype encripts the data into thr required format 
+        the name attribute in the input tag is used to display the NAME of the entry written
+        1. input tag takes up this from user and 
+        2.gives a name to it using the name tag
+        3.The enctype encripts this data into the specified type of encryption 
+        4.The mailto: tag is used to send this data as an email the specified email
+        5. Method attribute is used to decide what to do with this data
+      -->
+        <label for="">Your Name:</label>
+        <input type="text" name="Your Name">
+            <br>
+            <br>
+        <input type="color">
+            <br>
+            <br>
+        <label for="">Do you want to submit your email list here?</label>
+        <input type="checkbox">
+             <br>
+             <br>
+        <label for="">Passsword:</label>
+        <input type="password" name="Your Passsword">
+        <br>
+        <br>
+        <label for="">Submit your files here</label>
+        <input type="file">
+            <br>
+            <br>
+            <label for="">Mention the date of entering the data</label>
+            <input type="date">
+            <br>
+            <br>
+            <label for="">Mention the range</label>
+            <input type="range" name="Your Range is" id="">
+            <br>
+            <br>
+        <input type="submit">   
+    </form>
+</body>
+</html>
